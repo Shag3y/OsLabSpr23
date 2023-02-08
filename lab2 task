@@ -2,24 +2,26 @@ NAME: ABDUL SAMI
 ROLL NO : 21k--3589
 
 
-Task 1:
 
+Task 1:
 echo "$1"
 if [[ $1 < $2 && $1 < $3 ]];
-then 
-echo "$1 is the smallest number" 
+then
+echo "$1 is the smallest number"
 fi
 if [[ $2 < $1 && $2 < $3 ]];
-then 
-echo "$2 is the smallest number" 
+then
+echo "$2 is the smallest number"
 fi
 if [[ $3 < $2 && $3 < $1 ]];
-then 
-echo "$3  is the smallest number" 
+then
+echo "$3 is the smallest number"
 fi
+
 
 Task 2:
 
+
 for i in {1..5}; do
 name="test0$i"
 mkdir $name
@@ -35,53 +37,54 @@ touch test.txt
 date > test.txt
 cd..
 cd..
-done 
-
+done
 
 Task 3:
 
-for i in {1..5}; do
-name="test0$i"
-mkdir $name
-cd $name
-mkdir 01
+for i in {1..5} ; do
+	fname="test0$i"
+	cd $fname
+	
+	cd 01
+	cat test.txt >> ../..merge.txt
+	
+	cd ..
+	cd 02
+	cat test.txt >> ../../merge.txt
+	
+	cd ../..
+	
+done
+
+
+Task 4 :
+
+for i in {1..5} ; do
+fname="test0$i"
+cd $fname
 cd 01
-touch test.txt
-date > test.txt
-cp test.txt merge.txt
-cd..
-mkdir 02
+find . -type f -name *.txt >> filesname.txt
+cd ..
 cd 02
-touch test.txt
-date > test.txt
-cp test.txt merge.txt
-cd..
-cd..
-done 
-
-
-Task 4:
-
-echo $1
 find . -type f -name *.txt > filesname.txt
+cd ../..
+done
+	
 
-
-Task 5 :
-
+Task 5:
 
 for i in {1..5}; do
 name="test0$i"
 cd $name
 cd 01
 rm -i
-cd..
+cd ..
 cd 02
 rm -i
 
-cd..
-cd..
-done 
+cd ../..
 
+done
 
 Task 6:
 
@@ -89,17 +92,15 @@ echo "Enter the value of n"
 read n
 a=0
 b=1
-count=2
+
 echo "Fibonacci series:"
 echo $a
 echo $b
-while [ $count -le $n ]
-do
-fib=`expr $a + $b`
+for i in {1..10}; do
+((fib=expr $a + $b))
 a=$b
 b=$fib
 echo $fib
-count=`expr $count + 1`
 done
 
 
