@@ -1,0 +1,29 @@
+Script started on 2023-02-19 19:42:11+05:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="79" LINES="29"]
+[?2004h]0;sami@sami-VirtualBox: ~[01;32msami@sami-VirtualBox[00m:[01;34m~[00m$ tree
+[?2004l[01;34m.[0m
+├── [01;34mDesktop[0m
+├── [01;34mDocuments[0m
+├── [01;34mDownloads[0m
+├── [01;34mMusic[0m
+├── [01;34mPictures[0m
+├── [01;34mPublic[0m
+├── [01;34msnap[0m
+│   ├── [01;34mfirefox[0m
+│   │   ├── [01;34m1635[0m
+│   │   ├── [01;34mcommon[0m
+│   │   └── [01;36mcurrent[0m -> [01;34m1635[0m
+│   └── [01;34msnapd-desktop-integration[0m
+│       ├── [01;34m14[0m
+│       ├── [01;34mcommon[0m
+│       └── [01;36mcurrent[0m -> [01;34m14[0m
+├── [01;34mTemplates[0m
+├── typescript
+└── [01;34mVideos[0m
+
+17 directories, 1 file
+[?2004h]0;sami@sami-VirtualBox: ~[01;32msami@sami-VirtualBox[00m:[01;34m~[00m$ tree >[K[K[K[K[K[Ktoucn[Kh labtask3.txt
+[?2004l[?2004h]0;sami@sami-VirtualBox: ~[01;32msami@sami-VirtualBox[00m:[01;34m~[00m$ tree >> labtask3.txt
+[?2004l[?2004h]0;sami@sami-VirtualBox: ~[01;32msami@sami-VirtualBox[00m:[01;34m~[00m$ [?2004l
+exit
+
+Script done on 2023-02-19 19:42:52+05:00 [COMMAND_EXIT_CODE="0"]
