@@ -1,0 +1,13 @@
+sudo apt update
+sudo apt install apache2 -y
+sudo service apache2 status
+sudo ufw app list
+sudo ufw app info "Apache Full"
+sudo apt install mysql-server -y
+sudo apt install php libapache2-mod-php php-mysql -y
+sudo nano /etc/apache2/mods-enabled/dir.conf
+apt-cache search php- | less
+apt-cache show php8.1-tidy
+sudo apt install php8.1-tidy
+sudo systemctl restart apache2
+sudo nano /var/www/html/info.php
