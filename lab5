@@ -1,4 +1,4 @@
-TASK1: (shell script of installation)
+TASK1/2: (shell script of installation)
 sudo apt update
 sudo apt install apache2 -y
 sudo service apache2 status
@@ -12,3 +12,6 @@ apt-cache show php8.1-tidy
 sudo apt install php8.1-tidy
 sudo systemctl restart apache2
 sudo nano /var/www/html/info.php
+
+
+ss uploaded
