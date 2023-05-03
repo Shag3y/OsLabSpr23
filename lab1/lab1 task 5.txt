@@ -1,8 +1,10 @@
 Script started on 2023-02-19 20:47:57+05:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="79" LINES="29"]
 [?2004h]0;sami@sami-VirtualBox: ~[01;32msami@sami-VirtualBox[00m:[01;34m~[00m$ su -user [K[K[K[K[K user
-[?2004lPassword: 
+[?2004l
+Password: 
 [?2004h]0;user@sami-VirtualBox: ~[01;32muser@sami-VirtualBox[00m:[01;34m~[00m$ passwd
-[?2004lChanging password for user.
+[?2004l
+Changing password for user.
 Current password: 
 New password: 
 BAD PASSWORD: The password is too similar to the old one
@@ -13,16 +15,19 @@ BAD PASSWORD: The password is shorter than 8 characters
 sapasswd: Have exhausted maximum number of retries for service
 passwd: password unchanged
 [?2004h]0;user@sami-VirtualBox: ~[01;32muser@sami-VirtualBox[00m:[01;34m~[00m$ sami[K[K[K[Kpasswd
-[?2004lChanging password for user.
+[?2004l
+Changing password for user.
 Current password: 
 New password: 
 BAD PASSWORD: The password fails the dictionary check - it is too simplistic/systematic
 New password: 
 Retype new password: 
 passwd: password updated successfully
-[?2004h]0;user@sami-VirtualBox: ~[01;32muser@sami-VirtualBox[00m:[01;34m~[00m$ [?2004l
+[?2004h]0;user@sami-VirtualBox: ~[01;32muser@sami-VirtualBox[00m:[01;34m~[00m$ [?2004l
+
 logout
-[?2004h]0;sami@sami-VirtualBox: ~[01;32msami@sami-VirtualBox[00m:[01;34m~[00m$ [?2004l
+[?2004h]0;sami@sami-VirtualBox: ~[01;32msami@sami-VirtualBox[00m:[01;34m~[00m$ [?2004l
+
 exit
 
 Script done on 2023-02-19 20:48:45+05:00 [COMMAND_EXIT_CODE="0"]
