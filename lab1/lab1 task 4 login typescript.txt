@@ -1,9 +1,11 @@
 Script started on 2023-02-19 20:40:11+05:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="79" LINES="29"]
 [?2004h]0;sami@sami-VirtualBox: ~[01;32msami@sami-VirtualBox[00m:[01;34m~[00m$ scripttree >> labtask3.txt[2Pouch[C[C[C[C[C[C[C[C[C[C[C[C[Cree[Kouch labtask3.txt[2@ree >>[C[C[C[C[C[C[C[C[C[C[C[C[Cscript[K[Kscripttree >> labtask3.txt[2Pouch[C[C[C[C[C[C[C[C[C[C[C[C[Cree[Ksudo apt install treetree[Kscript[2Ptreesudo apt install tree[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Ksudop[K u[Kadduser username
-[?2004l[sudo] password for sami: 
+[?2004l
+[sudo] password for sami: 
 adduser: The user `username' already exists.
 [?2004h]0;sami@sami-VirtualBox: ~[01;32msami@sami-VirtualBox[00m:[01;34m~[00m$ sudo adduser username[K[K[K[K
-[?2004lAdding user `user' ...
+[?2004l
+Adding user `user' ...
 Adding new group `user' (1002) ...
 Adding new user `user' (1002) with group `user' ...
 Creating home directory `/home/user' ...
@@ -21,10 +23,13 @@ Enter the new value, or press ENTER for the default
 	Other []: 1
 Is the information correct? [Y/n] y
 [?2004h]0;sami@sami-VirtualBox: ~[01;32msami@sami-VirtualBox[00m:[01;34m~[00m$ su - user[K[K[K[Kuser
-[?2004lPassword: 
-[?2004h]0;user@sami-VirtualBox: ~[01;32muser@sami-VirtualBox[00m:[01;34m~[00m$ [?2004l
+[?2004l
+Password: 
+[?2004h]0;user@sami-VirtualBox: ~[01;32muser@sami-VirtualBox[00m:[01;34m~[00m$ [?2004l
+
 logout
-[?2004h]0;sami@sami-VirtualBox: ~[01;32msami@sami-VirtualBox[00m:[01;34m~[00m$ [?2004l
+[?2004h]0;sami@sami-VirtualBox: ~[01;32msami@sami-VirtualBox[00m:[01;34m~[00m$ [?2004l
+
 exit
 
 Script done on 2023-02-19 20:42:44+05:00 [COMMAND_EXIT_CODE="0"]
