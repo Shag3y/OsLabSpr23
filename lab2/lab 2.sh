@@ -1,5 +1,3 @@
-OS LAB 2
-NAME: ABDUL SAMI
 Q#1)
 echo "$1"
 if [[ $1 < $2 && $1 < $3 ]];
